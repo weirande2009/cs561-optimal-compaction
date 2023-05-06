@@ -13,3 +13,6 @@ here is the explanation to the parameter
 
 # What you get
 After completing running, you can find there is a folder whose name is the pattern of the workload. In this folder, there are four things. Folder "history" records the picking history. Folder "result" records the write amplification of each run and the minimum write amplification so far. The write amplification of KRoundRobin and KMinOverlappingRatio are recorded in the first two lines in result.txt. Besides, the workload and logs are also included.
+
+# Notes
+This repo doesn't contain the files needed to compile RocksDB, if you want to get the library of RocksDB to this project, please refer to https://github.com/weirande2009/cs561-research-project where we modify the source code of RocksDB.
